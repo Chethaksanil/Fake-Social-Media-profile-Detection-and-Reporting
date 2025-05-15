@@ -1,0 +1,14 @@
+flask
+flask-cors
+flask-jwt-extended
+flask-bcrypt
+sqlalchemy
+pymysql
+numpy
+pandas
+scikit-learn
+opencv-python
+pillow
+requests
+blockchain  # For blockchain integration
+gunicorn    # If deploying online

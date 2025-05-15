@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #1a1a1a, #333);
+    color: #fff;
+  }
+  
+  /* Container holding the two boxes */
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 40px;
+    gap: 30px;
+  }
+  
+  /* Box design */
+  .box {
+    width: 500px;
+    background: #202020;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Left box hover effect */
+  .box-left:hover {
+    transform: rotateY(5deg) scale(1.02);
+    box-shadow: 0 15px 40px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Right box hover effect */
+  .box-right:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 40px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Main heading */
+  h1 {
+    text-align: center;
+    color: #ff3e00;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #ff3e00, 0 0 20px #ff5722;
+  }
+  
+  /* Sub-headings inside boxes */
+  h2 {
+    color: #00ffd5;
+    text-shadow: 0 0 10px #00ffd5;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Inputs and selects */
+  input, select {
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    box-shadow: 0 0 8px #00ffd5;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 14px;
+    background-color: #ff3e00;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px #ff3e00;
+  }
+  
+  button:hover {
+    background-color: #ff5722;
+    box-shadow: 0 0 20px #ff5722;
+  }
+  
+  /* Wallet button specifically */
+  .wallet-btn {
+    margin: 20px auto;
+    display: block;
+    font-size: 1rem;
+  }
+  
+  /* Prediction result */
+  .result {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #00ffcc;
+    background: #292929;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffcc;
+  }
+  
+  /* Teammate section */
+  .teammates {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1rem;
+    color: #aaa;
+  }
+  
+  /* Glow effects added */
+  .glow-btn {
+    background-color: #ff3e00;
+    color: white;
+    border: none;
+    padding: 14px;
+    margin-top: 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 12px #ff3e00;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .glow-btn:hover {
+    background-color: #ff5722;
+    box-shadow: 0 0 25px #ff5722;
+  }
+  
+  .glow-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff3e00;
+    text-shadow: 0 0 8px #ff3e00, 0 0 12px #ff5722;
+  }
+  
+  .glow-box {
+    background: #292929;
+    padding: 15px;
+    border-radius: 10px;
+    color: #00ffcc;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 0 12px #00ffcc;
+  }
+  
